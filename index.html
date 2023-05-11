@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bobabo Time</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://play-lh.googleusercontent.com/1pT4CclYp4fqnk_yKupIgM2w-l4tctKrveIIZ_YVcUN_qrXsXugWwJlMTVQoRzI3UA"
+      type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="" class="logo">Bobabo<span>Time</span></a>
+
+      <div class="navbar-list" id="click">
+        <i class="bx bx-x" id="times" onclick="hideMenu()"></i>
+        <a href="#home" class="active-nav">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <i class="bx bx-menu-alt-right" id="hamburger" onclick="showMenu()"></i>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="home-content">
+        <h2>Hello Semuanya, Selamat Datang di...</h2>
+        <h1>BOBABO TIME</h1>
+        <h3>Menyajikan Berbagai Macam Boba</h3>
+        <p>
+          "Heh, sepertinya boba kekinian ini sempurna untuk menemani hari-hariku
+          yang sibuk. Kesegaran boba kekinian sungguh melegakan setelah
+          beraktivitas sepanjang hari!"
+        </p>
+        <button class="btn-home">
+          <a href="#menu"><i class="bx bxs-food-menu"></i> Lihat Menu</a>
+        </button>
+      </main>
+
+      <div class="social-media">
+        <div class="social-box">
+          <a href=""><span>Instagram</span><i class="bx bxl-instagram"></i></a>
+          <a href=""><span>Facebook</span><i class="bx bxl-facebook"></i></a>
+          <a href=""><span>Twitter</span><i class="bx bxl-twitter"></i></a>
+        </div>
+        <div class="line-social"></div>
+      </div>
+    </section>
+
+    <!-- --- -->
+    <!-- --- -->
+
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>|| <span>Tentang</span> Kami</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-img">
+          <img src="./assets/img/about.jpg" alt="" />
+        </div>
+        <div class="about-text">
+          <h3><span>Bobabo</span>Time</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+            suscipit voluptates et quod commodi doloremque, aspernatur mollitia
+            excepturi laudantium magnam sequi numquam atque possimus? Quae eos
+            dolore voluptatibus ipsam ex! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Illo maxime voluptatum, quae sequi nisi facere.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
+            molestias accusamus ab praesentium dolor eligendi placeat voluptate
+            saepe mollitia odio reprehenderit corrupti harum quam voluptatibus
+            ullam ea repudiandae, eveniet nemo? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Accusamus aliquam excepturi, vel,
+            ducimus aspernatur, non debitis modi nihil quam nulla quia. Alias
+            modi odio assumenda magni velit, laudantium quas minus?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- -->
+
+    <section class="menu" id="menu">
+      <div class="heading">
+        <h2>|| Menu</h2>
+      </div>
+
+      <div class="title-menu">
+        <span class="line-title-top"></span>
+        <h3>Minuman Boba</h3>
+        <span class="line-title-bottom"></span>
+      </div>
+
+      <div class="menu-content">
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_1.jpeg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Bubble Milk Tea</h4>
+              <p>
+                Teh hitam/hijau, susu cair/kental manis, gula, es batu,
+                bola-bola tapioka/jelly, dan air untuk merebus tapioka.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_2.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Brown Sugar Milk Tea</h4>
+              <p>
+                Teh hitam, susu cair, gula merah, es batu, air, tepung tapioka,
+                dan boba. (Boba pada Brown Sugar Milk Tea berbeda dengan Bubble
+                Milk Tea)
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_3.webp" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Vanilla Bubble Tea</h4>
+              <p>
+                Teh hitam, susu cair atau susu kental manis, gula pasir, es
+                batu, bubuk vanila, bola-bola tapioka, dan air untuk merebus
+                tapioka.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_4.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Taro Milk Tea</h4>
+              <p>
+                Bubuk taro, susu cair atau susu kental manis, gula pasir, es
+                batu, bola-bola tapioka, teh hitam atau teh hijau, dan air untuk
+                merebus tapioka.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_5.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Thai Milk Tea</h4>
+              <p>
+                Teh celup hitam, susu kental manis, gula pasir, es batu, bunga
+                telang, serai, kayu manis, dan air.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_6.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Matcha Milk Tea</h4>
+              <p>
+                Matcha bubuk, susu cair atau susu kental manis, gula pasir, es
+                batu, bola-bola tapioka, dan air untuk merebus tapioka.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_7.jpeg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Butterfly Pea Bubble Tea</h4>
+              <p>
+                Bunga telang kering, air, gula pasir, teh celup hitam, susu cair
+                atau susu kental manis, bola-bola tapioka, es batu, dan perasan
+                lemon atau jeruk nipis (opsional).
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <img src="./assets/img/menu/menu_8.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Strawberry Mango Bubble Tea</h4>
+              <p>
+                Teh hitam, susu cair atau susu kental manis, gula pasir, es
+                batu, stroberi, mangga, bola-bola tapioka, dan air untuk merebus
+                tapioka.
+              </p>
+              <h5>IDR 25K</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- -->
+
+    <section class="dessert" id="dessert">
+      <div class="title-dessert">
+        <span class="line-title-top"></span>
+        <h3>Dessert</h3>
+        <span class="line-title-bottom"></span>
+      </div>
+
+      <div class="dessert-content">
+        <div class="dessert-box">
+          <img src="./assets/img/menu/dessert_1.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Tiramisu</h4>
+              <p>
+                Biskuit ladyfinger, kopi pekat, mascarpone, gula, telur, cokelat
+                bubuk, vanilla, cairan pengental (seperti gelatin), serpihan
+                cokelat atau bubuk kakao untuk hiasan.
+              </p>
+              <h5>IDR 30K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu/dessert_2.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Pudding Custard</h4>
+              <p>
+                Telur, susu, gula, tepung maizena, vanili, garam, bubuk kayu
+                manis (opsional), pilihan tambahan seperti buah-buahan segar
+                atau kacang-kacangan untuk topping.
+              </p>
+              <h5>IDR 28K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu/dessert_3.jpeg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Açaí Palm</h4>
+              <p>
+                Buah açaí, pisang matang, jus jeruk, madu atau pemanis alami,
+                susu almond atau susu pilihan, es batu, granola, buah segar,
+                biji chia, kelapa parut.
+              </p>
+              <h5>IDR 27K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu/dessert_4.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Crème Brûlée</h4>
+              <p>
+                Kuning telur, gula, vanili, krim segar, garam, gula pasir (untuk
+                taburan dan karamelisasi permukaan), serta pemanis tambahan
+                seperti sirup maple atau ekstrak almond (opsional)
+              </p>
+              <h5>IDR 28K</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- -->
+
+    <section class="dessert" id="dessert">
+      <div class="title-dessert">
+        <span class="line-title-top"></span>
+        <h3>Makanan</h3>
+        <span class="line-title-bottom"></span>
+      </div>
+
+      <div class="dessert-content">
+        <div class="dessert-box">
+          <img src="./assets/img/menu/food_1.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Nasi Goreng</h4>
+              <p>
+                Nasi, bawang putih, bawang merah, cabai merah, kecap manis,
+                kecap asin, minyak goreng, telur, daging ayam atau udang
+                (opsional), garam, lada, sayuran seperti wortel, kacang polong,
+                dan daun bawang.
+              </p>
+              <h5>IDR 30K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu//food_2.jpeg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Creamy Boursin Pasta</h4>
+              <p>
+                Pasta, saus Boursin, bawang putih, mentega, minyak zaitun, kaldu
+                ayam, garam, lada, parmesan parut, parsley cincang (opsional),
+                dan potongan daging ayam atau udang (opsional).
+              </p>
+              <h5>IDR 28K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu/food_3.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Mie Goreng Jawa</h4>
+              <p>
+                Mie telur, bawang putih, bawang merah, cabai merah, saus kecap
+                manis, kecap asin, minyak goreng, kol, tauge, garam, lada, telur
+                ayam, irisan daun bawang, irisan daging ayam atau udang
+                (opsional), dan irisan wortel (opsional).
+              </p>
+              <h5>IDR 27K</h5>
+            </div>
+          </div>
+        </div>
+        <div class="dessert-box">
+          <img src="./assets/img/menu/food_4.jpg" alt="" />
+          <div class="overlay">
+            <div class="overlay-content">
+              <h4>Teriyaki Chicken Bowl</h4>
+              <p>
+                Daging ayam, saus teriyaki, minyak wijen, bawang putih, bawang
+                bombay, brokoli, wortel, paprika, garam, lada, wijen sangrai
+                (opsional), nasi putih, kecap asin, dan gula (opsional).
+              </p>
+              <h5>IDR 28K</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- -->
+
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>|| Kontak</h2>
+      </div>
+
+      <div class="contact-content">
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15826.664321505114!2d109.31859022763274!3d-7.391263552333133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6558ffc118985b%3A0x5027a76e3551790!2sKarangjambe%2C%20Padamara%2C%20Purbalingga%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1683082887295!5m2!1sen!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="buys">
+          <form action="">
+            <input type="text" placeholder="Nama Anda" />
+            <input type="text" placeholder="Email Anda" />
+            <input type="text" placeholder="Alamat Anda" />
+            <textarea
+              name=""
+              placeholder="Pesanan"
+              id=""
+              cols="30"
+              rows="10"></textarea>
+            <button>
+              <a href=""><i class="bx bxs-shopping-bags"></i> Pesan Sekarang</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="title-footer">
+        <h2>Boba<span>Time</span></h2>
+      </div>
+      <div class="permalinks">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="copyright">
+        <span class="line-footer"></span>
+        <p>Created By Bobabo<span>Time</span>. &copy; 2024</p>
+        <span class="line-footer"></span>
+      </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
