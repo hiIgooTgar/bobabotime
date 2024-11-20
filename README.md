@@ -1,1 +1,1 @@
-Membuat website sederhana HTML CSS JavaScript Project 1
+## Membuat Website Sederhana | HTML CSS JS | Projek 1
